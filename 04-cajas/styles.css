@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.caja {
+    display: block;
+    /* display: block; Se comporte como una caja */
+    width: 250px;
+    height: 250px;
+    border: 10px solid red;
+    margin: 15px 15px 15px 15px;
+    background: yellow;
+    float: left;
+    /* float: left; Mover las cajas pero con un display BLOCK OJO*/
+}
+
+.caja p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 230px;
+    /* line-height: 230px; Orientacion vertical del texto */
+    padding: 10px;
+}
+
+body {
+    padding: 40px;
+    border: 1px solid black;
+}
+
+#cajas {
+    max-width: 1035px;
+}
+
+.clearfix {
+    /* Limpiado los flotados */
+    float: none;
+    clear: both;
+}

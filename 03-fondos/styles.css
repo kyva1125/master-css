@@ -1,0 +1,36 @@
+body {
+    background-color: grey;
+    background-image: url('img/paisaje.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-attachment: fixed;  El fondo no se mueve  */
+    /* background-position: left bottom; para el patron */
+    background-size: 100% 100%;
+}
+
+#caja {
+    border: 5px solid black;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-decoration: line-through;
+    line-height: 50px;
+    /* line-height: 50px; Altura de linea con el br */
+}
+
+h2 {
+    border: 1px solid red;
+    padding: 10px;
+    background-image: url('img/pattern.jpg');
+    color: white;
+}
+
+p {
+    color: white;
+    text-align: justify;
+    text-indent: 50px;
+    /* text-indent: 15px; Identacion */
+    /* word-spacing: 10px; Espacio entre palabras */
+    /* letter-spacing: 5px; Espacio entre letras */
+}
